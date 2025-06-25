@@ -1,2 +1,2 @@
 # endoLDMC
-LDM+controlNet from stable diffusion for RGB endoscopic images
+LDM+ControlNet from stable diffusion model for RGB endoscopic images' generation
