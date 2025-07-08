@@ -3,7 +3,7 @@
 Script to train a Latent Diffusion generative model conditioning by ControlNet (from [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543))
 on RGB laryngeal endoscopic dataset to obtain new image-annotation pairs ready to use fo enriching existing datasets, boosting the performance of CADe/x models. 
 
-![ControlNet Samples](https://github.com/ChiaraBaldini/endoLDMC/main/assets/Qualitative results pairs generation.png?raw=true)
+![ControlNet Samples](https://github.com/ChiaraBaldini/endoLDMC/main/assets/Qualitative_results_pairs_generation.png)
 
 
 ## Instructions
