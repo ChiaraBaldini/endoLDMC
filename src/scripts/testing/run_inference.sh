@@ -13,7 +13,7 @@ output_dir="project/outputs/inference/${experiment}/actually_ddpm/gs1_cgs1_200st
 ddpm_uri="project/outputs/runs/LDM_txt_v0/diffusion_best_model.pth"
 controlnet_uri="project/outputs/runs/CTRL_CCNET_ANY_ACQ_TXT_v0/controlnet_best_model.pth"
 stage1_uri=""
-test_ids="project/outputs/ids/test.tsv"
+test_ids="project/outputs/ids_lar/test.tsv"
 config_file="configs/controlnet/controlnet_v1.yaml"
 scale_factor=0.1 #0.1 #0.01 #=0.3
 batch_size=1 #8 #16 
