@@ -11,7 +11,7 @@ on RGB laryngeal endoscopic dataset to obtain new image-annotation pairs ready t
 ### Preprocessing
 After preparing the dataset (imgs, masks, captions), we obtain the list of the paths for the laryngeal images and corresponding additional information (masks, capions). For that, we use the following script:
 
-1) python3 `./src/python/preprocessing/create_datalist.py` -  Create files with datalist for training, validation and test.
+1) `python3 ./src/python/preprocessing/create_datalist.py` -  Create files with datalist for training, validation and test.
 
 ### Training
 After we obtain the paths, we can train the models using similar commands as in the following files:
@@ -26,8 +26,8 @@ The main python script for this stage is the `./src/python/training/train_contro
 ### Inference and evaluation
 Finally, we can generate images from the fine-tuned diffusion model with controlnet, and compute some evaluation metrics. The following is the list of execution for inference and evaluation:
 
-5) python3 `./src/python/testing/run_controlnet_inference.py` - Generate a new endoscopic laryngeal images from the diffusion model using contditioning.
-6) python3 `./src/python/testing/fid_ratio.py` - Compute FID ratio between real and generated images.
+5) `python3 ./src/python/testing/run_controlnet_inference.py` - Generate a new endoscopic laryngeal images from the diffusion model using contditioning.
+6) `python3 ./src/python/testing/fid_ratio.py` - Compute FID ratio between real and generated images.
 
 ## Authors
 Chiara Baldini , [chiara.baldini@iit.it]
