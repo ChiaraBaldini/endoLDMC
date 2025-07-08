@@ -26,19 +26,32 @@ The main python script for this stage is the `./src/python/training/train_contro
 ### Inference and evaluation
 Finally, we can generate images from the fine-tuned diffusion model with controlnet, and compute some evaluation metrics. The following is the list of execution for inference and evaluation:
 
+<<<<<<< HEAD
 5) `./src/python/testing/run_controlnet_inference.py` - Generate a new endoscopic laryngeal images from the diffusion model using contditioning.
 6) `./src/python/testing/fid_ratio.py` - Compute FID ratio between real and generated images.
+=======
+5) python3 `./src/python/testing/run_controlnet_inference.py` - Generate a new endoscopic laryngeal images from the diffusion model using contditioning.
+6) python3 `./src/python/testing/fid_ratio.py` - Compute FID ratio between real and generated images.
+>>>>>>> 4a6b139 (First code upload)
 
 ## Authors
 Chiara Baldini , [chiara.baldini@iit.it]
 
 ## Acknowledgments
+<<<<<<< HEAD
 * This code was built by adapting the version of [Osuala et al.](https://github.com/RichardObi/ccnet).
 * We thank the authors for sharing the codes.
+=======
+* This code was built by adapting the version of [Osuala et al.](https://github.com/RichardObi/ccnet). We thank the authors for sharing the codes.
+>>>>>>> 4a6b139 (First code upload)
 
 ## Citation
 If our code is helpful to you, please cite:
 
 ```
 
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 4a6b139 (First code upload)
