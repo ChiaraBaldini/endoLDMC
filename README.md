@@ -40,4 +40,14 @@ If our code is helpful to you, please cite:
 
 ```
 
+@misc{baldini2025clinicallyguideddatasynthesislaryngeal,
+      title={Clinically-guided Data Synthesis for Laryngeal Lesion Detection}, 
+      author={Chiara Baldini and Kaisar Kushibar and Richard Osuala and Simone Balocco and Oliver Diaz and Karim Lekadir and Leonardo S. Mattos},
+      year={2025},
+      eprint={2508.06182},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2508.06182}, 
+}
+
 ```
