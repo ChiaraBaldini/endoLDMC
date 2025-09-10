@@ -1,6 +1,6 @@
 # Latent Diffusion Model + ControlNet for RGB Endoscopic Laryngeal Image-Annotation Pairs Generation
 
-📢🚀 **Upcoming Presentation:** This work will soon be presented at **MICCAI 2025**. For now, we share the **preprint version** available on [arXiv](https://arxiv.org/abs/2508.06182).
+📢 **Upcoming Presentation:** This work will soon be presented at **MICCAI 2025**🚀. For now, we share the **preprint version** available on [arXiv](https://arxiv.org/abs/2508.06182).
 
 Script to train a Latent Diffusion generative model conditioning by ControlNet (from [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543))
 on RGB laryngeal endoscopic dataset to obtain new image-annotation pairs ready to use fo enriching existing datasets, boosting the performance of CADe/x models. 
